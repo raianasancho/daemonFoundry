@@ -1,0 +1,27 @@
+{
+  "Actor": {},
+  "Item": {
+    "types": ["weapon", "vehicle"],
+    "templates": {
+      "base": {
+        "description": ""
+      }
+    },
+    "weapon": {
+      "templates": ["base"],
+      "attackWith": "dexterity",
+      "damage": 0,
+      "concealment": 0,
+      "reload": 0,
+      "mookBonus": 0,
+      "pumpAction": false
+    },
+    "vehicle": {
+      "templates": ["base"],
+      "acceleration": 0,
+      "frame": 0,
+      "handling": 0,
+      "personal": false
+    }
+  }
+}
