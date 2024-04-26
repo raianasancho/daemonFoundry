@@ -11,7 +11,7 @@
       "templates": ["base"],
       "attackWith": "dexterity",
       "damage": 0,
-      "concealment": 0,
+      "conceal": 0,
       "reload": 0,
       "mookBonus": 0,
       "pumpAction": false

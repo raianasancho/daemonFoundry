@@ -16,7 +16,13 @@
   "esmodules": ["daemon.js"],
   "styles": ["css/daemon.css"],
   "packs": [],
-  "languages": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
   "gridDistance": 1,
   "gridUnits": "m",
   "primaryTokenAttribute": "health",

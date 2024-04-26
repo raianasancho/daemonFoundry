@@ -12,9 +12,20 @@
         name="name"
         type="text"
         value="{{item.name}}"
-        placeholder="{{ localize 'Name' }}"
+        placeholder="{{localize 'Name'}}"
       />
     </h1>
   </header>
-  <p>Hello!</p>
+  <div>
+    <table>
+      <tr>
+        <th>{{localize "daemon.weapon.attackWith"}}</th>
+        <th>{{localize "daemon.weapon.damage"}}</th>
+        <th>{{localize "daemon.weapon.conceal"}}</th>
+        <th>{{localize "daemon.weapon.reload"}}</th>
+        <th>{{localize "daemon.weapon.mookBonus"}}</th>
+        <th>{{localize "daemon.weapon.pumpAction"}}</th>
+      </tr>
+    </table>
+  </div>
 </form>
